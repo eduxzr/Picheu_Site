@@ -1,0 +1,113 @@
+/* login.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field div {
+    margin-bottom: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error {
+    display: none;
+    margin-top: 5px;
+    color: #f00;
+    font-size: 12px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .solid {
+    background-color: #007bff;
+  }
+  
+  .clear {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Estilos específicos para a tela de login */
+  .login-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-cadastro input[type="email"],
+  .login-cadastro input[type="password"] {
+    margin-bottom: 10px;
+  }
+  
+  .login-cadastro .error {
+    display: block;
+  }
+  
+  .login-cadastro button {
+    margin-top: 0;
+  }
+
+
+  button.register-button {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  button.register-button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }

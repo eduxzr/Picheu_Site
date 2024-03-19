@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picheu - Seu E-commerce de Periféricos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header (TOPBAR) -->
+    <header>
+        <div class="topbar">
+            <div class="topbar-content">
+                <div class="logo">
+                    <img src="logo.png" alt="Picheu Logo">
+                </div>
+                <div class="login-signup">
+                <!-- Aqui será verificado se o usuário está logado -->
+                <!-- Se estiver logado, exibe o nome do usuário e o botão de logout -->
+                <!-- Caso contrário, exibe os links de login e cadastro -->
+                <span id="user-display"></span>
+                <button id="logout-button" onclick="logout()" >Logout</button>
+                <a class="login-link" href="paginas/login/login.html">Fazer login</a>
+                <a class="login-link" href="paginas/cadastro/cadastro.html">Criar conta</a>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tela Inicial -->
+    <main>
+        <section class="home">
+            <div class="container">
+                <h1>Bem-vindo ao nosso E-commerce!</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Pesquisar produtos">
+                    <button>Pesquisar</button>
+                </div>
+                <nav class="categories-menu">
+                    <ul>
+                        <li><a href="#">Mouses</a></li>
+                        <li><a href="#">Notebooks</a></li>
+                        <li><a href="#">Teclados</a></li>
+                        <li><a href="#">Monitores</a></li>
+                    </ul>
+                </nav>
+                <div class="featured-products">
+                    <!-- Adicione aqui os produtos em destaque ou promocionais -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Picheu. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
